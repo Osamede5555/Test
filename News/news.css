@@ -8,8 +8,7 @@
 
 
 body {
-  /* background-image: url("/codetest/ctimg/School\ d.jpg");  
-  background-color: blue; */
+  
   overflow: hidden;
   background: linear-gradient(to top, rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)),url("/codetest/ctimg/School\ d.jpg") no-repeat top center;
 }
@@ -17,7 +16,7 @@ body {
 .container {  
     display: flex;
     justify-content: space-between;
-    /* width: 50%; */
+   
     margin: 20px;
     padding-top: 5px;
 
@@ -25,7 +24,7 @@ body {
 }
 
     nav ul{
-        /* background-color: rgb(207, 221, 222); */
+        
         display: flex;
         list-style: none;
         justify-content: flex-end;
@@ -56,7 +55,7 @@ body {
 }
 
 .news {
-    /* background-color: azure; */
+    
     margin-top: 5 0px;
     display: flex;
     justify-content: center;

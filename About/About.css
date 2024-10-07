@@ -3,61 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
- /* Mobile styles for screens 600px or smaller */
-@media only screen and (max-width: 600px) { 
-
-    /* Main content styles */
-    /* .about-section {
-        padding: 20px;
-    } */
-
-    /* .about {
-        display: flex;
-        flex-direction: column; /* Stack image and content vertically */
-    } */
-
+ 
       .img {
         margin-bottom: 20px; /* Add spacing between image and text content */
-     }   */
+     }   
 
-     /* .welcome h2, .welcome h3 {
-        font-size: 1.2rem; /* Adjust heading sizes for smaller screens */
-    } */
-
-     /* .welcome p, .welcome ul {
-        font-size: 1rem; Adjust paragraph and list sizes for readability
-    } */
-
-     /* .welcome ul {
-        padding-left: 20px; /* Ensure proper indentation of list */
-    }   */
-
-     /*Footer styles */
+     
     
-
-     /* .footer-content {
-        display: flex;
-        flex-direction: column; /* Stack logo, links, and social icons vertically */
-        gap: 15px;
-    }  */
-
-    /* .footer-logo, .footer-links, .footer-social {
-        margin-bottom: 10px;
-    } */
-
-    /* .footer-links a {
-        display: block; /* Stack footer links vertically */
-         margin-bottom: 10px;
-    } */
-
-    /* .footer-social a {
-        margin: 0 10px;
-    } */
-
-    /* .footer-bottom {
-        font-size: 0.9rem; /* Smaller font size for footer text */
-    } */
-} 
 
 body {
     font-family: Arial, sans-serif;
@@ -255,4 +207,5 @@ footer {
 
     }
     
+}
 }
