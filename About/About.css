@@ -1,10 +1,10 @@
-* {
+      * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* Mobile styles for screens 600px or smaller */
-@media only screen and (max-width: 600px) {
+ /* Mobile styles for screens 600px or smaller */
+@media only screen and (max-width: 600px) { 
 
     /* Main content styles */
     .about-section {
@@ -16,33 +16,30 @@
         flex-direction: column; /* Stack image and content vertically */
     }
 
-    .img {
+     .img {
         margin-bottom: 20px; /* Add spacing between image and text content */
-    }
+    } 
 
-    .welcome h2, .welcome h3 {
+     .welcome h2, .welcome h3 {
         font-size: 1.2rem; /* Adjust heading sizes for smaller screens */
     }
 
-    .welcome p, .welcome ul {
+     .welcome p, .welcome ul {
         font-size: 1rem; /* Adjust paragraph and list sizes for readability */
     }
 
-    .welcome ul {
+     .welcome ul {
         padding-left: 20px; /* Ensure proper indentation of list */
-    }
+    }  
 
-    /* Footer styles */
-    .footer-container {
-        text-align: center; /* Center footer content */
-        padding: 10px;
-    }
+     /*Footer styles */
+    
 
-    .footer-content {
+     .footer-content {
         display: flex;
         flex-direction: column; /* Stack logo, links, and social icons vertically */
         gap: 15px;
-    }
+    } 
 
     .footer-logo, .footer-links, .footer-social {
         margin-bottom: 10px;
@@ -50,7 +47,7 @@
 
     .footer-links a {
         display: block; /* Stack footer links vertically */
-        margin-bottom: 10px;
+         margin-bottom: 10px;
     }
 
     .footer-social a {
@@ -60,14 +57,14 @@
     .footer-bottom {
         font-size: 0.9rem; /* Smaller font size for footer text */
     }
-}
+} 
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    
+    overflow: hidden;
 }
 
 header {
@@ -170,11 +167,11 @@ footer {
 
 .footer-social a:hover {
     color: #ffdd57;
-}
+} 
 
-.footer-container {
+ .footer-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margiarn: 0 auto;
     
 }
 
@@ -185,34 +182,62 @@ footer {
     flex-wrap: wrap;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
+} 
 
    
 
 
 
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.8);
-}
 
-.footer-bottom p {
-    margin: 0;
-}
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
+    .welcome h2{
+        font-size: 20px;
+        display: flex;
         text-align: center;
+        justify-content: center;
     }
-
-    .footer-links {
-        margin-top: 20px;
+    .welcome p{
+        display: flex; 
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+        font-size: 10px;
+        
     }
-
-    .footer-social {
-        margin-top: 20px;
+    .img{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        
+        
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+        color: #0056b3;
+    }
+    ul li{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-bottom{
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        width: px;
+        height: 50px;
+        
+    }
+    .footer-bottom p{
+    
+    }
+    body{
+        width: auto;
+        margin-left: 0px;
+        overflow-x: hidden;
     }
 }
