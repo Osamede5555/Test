@@ -7,56 +7,56 @@
 @media only screen and (max-width: 600px) { 
 
     /* Main content styles */
-    .about-section {
+    /* .about-section {
         padding: 20px;
-    }
+    } */
 
-    .about {
+    /* .about {
         display: flex;
         flex-direction: column; /* Stack image and content vertically */
-    }
+    } */
 
-     .img {
+      .img {
         margin-bottom: 20px; /* Add spacing between image and text content */
-    } 
+     }   */
 
-     .welcome h2, .welcome h3 {
+     /* .welcome h2, .welcome h3 {
         font-size: 1.2rem; /* Adjust heading sizes for smaller screens */
-    }
+    } */
 
-     .welcome p, .welcome ul {
-        font-size: 1rem; /* Adjust paragraph and list sizes for readability */
-    }
+     /* .welcome p, .welcome ul {
+        font-size: 1rem; Adjust paragraph and list sizes for readability
+    } */
 
-     .welcome ul {
+     /* .welcome ul {
         padding-left: 20px; /* Ensure proper indentation of list */
-    }  
+    }   */
 
      /*Footer styles */
     
 
-     .footer-content {
+     /* .footer-content {
         display: flex;
         flex-direction: column; /* Stack logo, links, and social icons vertically */
         gap: 15px;
-    } 
+    }  */
 
-    .footer-logo, .footer-links, .footer-social {
+    /* .footer-logo, .footer-links, .footer-social {
         margin-bottom: 10px;
-    }
+    } */
 
-    .footer-links a {
+    /* .footer-links a {
         display: block; /* Stack footer links vertically */
          margin-bottom: 10px;
-    }
+    } */
 
-    .footer-social a {
+    /* .footer-social a {
         margin: 0 10px;
-    }
+    } */
 
-    .footer-bottom {
+    /* .footer-bottom {
         font-size: 0.9rem; /* Smaller font size for footer text */
-    }
+    } */
 } 
 
 body {
@@ -193,51 +193,65 @@ footer {
 /* Responsive design */
 @media (max-width: 768px) {
     .welcome h2{
-        font-size: 20px;
+        font-size: 30px;
         display: flex;
         text-align: center;
         justify-content: center;
+    }
+    nav ul li{
+        margin: 4px;
+        
+    }
+    h1{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-right: 100px;
+        font-size: 30px;
     }
     .welcome p{
         display: flex; 
         text-align: center;
         justify-content: center;
         margin: 0px;
-        font-size: 10px;
+        font-size: 15px;
         
     }
-    .img{
-        width: 300px;
+    .img   {
         display: flex;
-        justify-content: center;
-        margin-left: 150px;
         
-        
-    }
+        }
     h3{
         text-align: center;
         font-size: 30px;
         color: #0056b3;
     }
     ul li{
-        font-size: 10px;
+        font-size: 15px;
         display: flex;
         justify-content: center;
+       
+        
     }
     .footer-bottom{
         font-size: 20px;
         color: white;
         background-color: black;
-        width: px;
+        
         height: 50px;
         
     }
     .footer-bottom p{
+        
     
     }
     body{
         width: auto;
-        margin-left: 0px;
+        margin: 0px;
         overflow-x: hidden;
+
+    }
+    main{
+        
     }
 }
