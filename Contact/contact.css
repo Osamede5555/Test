@@ -3,10 +3,21 @@
     margin: 0;
     padding: 0;
 }
-nav ul li{
+nav ul {
     display: flex;
+    justify-content: center;
 }
-.container{
+nav ul li{
+    margin-top: 15px;
+    padding: 8px;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    color: rgb(39, 43, 43);
+    text-decoration: none;
+}
+/* .container{
      align-items: center;
     justify-content: center; 
     margin-left: 300px;
@@ -14,10 +25,10 @@ nav ul li{
     border: 1px solid #5b9ac0;
     height: 120vh;
     background-color: rgb(2, 62, 94);
-    border-radius: 40px;
-}
+    border-radius: 40px; */
+
  body{
-    background-color: rgb(186, 191, 193);
+    background-color: #5b9ac0;
      
 } 
  nav{
@@ -51,36 +62,35 @@ i{
     
 
 }
-@media screen and (max-width:767px){
-nav h1{
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 700px;
-    font-size: 30px;
-}
-div{
-
-
+@media screen and (max-width:767px) {
     
-    margin-right: 1000px;
-}
-.container{
     
-   align-items: center;
-   margin-right: 9000px;
-}
-body{
-    margin: 0%
-    background-color:b ;
-}
-i{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-size: 30px;
-    background-color: ;
-}
-body{
-    background-color: #5b9ac0;
-}
-}
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav ul li{
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 8px;
+        /* margin-left: -80px; */
+        
+    }
+    div i{
+        display: flex;
+        justify-content: center;
+    }
+    div i{
+     display: flex;
+      justify-content: center;
+      mar
+    }
+    body{
+        background-color: #5b9ac0;
+    }
+    body{
+        width: fit-content;
+        margin: auto;
+    }
+    }
