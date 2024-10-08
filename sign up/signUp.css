@@ -7,6 +7,19 @@ body {
     height: 100vh;
     margin: 0;
 }
+nav ul{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 90px; 
+}
+nav ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+}
 
 .container {
     text-align: center;
@@ -58,4 +71,17 @@ input {
 .google-button {
     background-color: red;
     color: white;
+}
+@media screen and (max-width:767px){
+    nav ul{
+        display: flex;
+        justify-content: center;
+         
+        margin-bottom: 0px;
+    }
+    nav ul li{
+        padding: 4px;
+        font-size: 15px;
+        
+    }
 }
