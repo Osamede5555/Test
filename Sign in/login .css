@@ -8,12 +8,12 @@ nav ul{
     justify-content: center;
 }
 nav ul li{
-    list-style-type: none;
     padding: 15px;
+    list-style-type: none;
 }
 ul li a{
-    color:black;
     text-decoration: none;
+    color: black;
 }
 .background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/sign\ in.jpg');
@@ -77,12 +77,12 @@ input {
      color:#fff;
 }
 @media screen and (max-width:767px){
-    nav ul {
+    nav ul{
         display: flex;
         justify-content: center;
     }
     nav ul li{
-        font-size: 10px;
+        font-size: 12px;
         padding: 4px;
     }
 }
